@@ -1,0 +1,19 @@
+{
+    "name": "renuja/php_ecommerce",
+    "authors": [
+        {
+            "name": "Renuja De Costa",
+            "email": "devmindadeco@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.3"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    }
+
+}

@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /phpEcommerce-main/
+RewriteRule ^(.*)$ public/index.php?q=$1 [QSA]
